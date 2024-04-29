@@ -1,7 +1,3 @@
-/*Selector {
-	Property: value;
-}*/
-
 * {
 	text-align: right;
 }
@@ -11,7 +7,11 @@ body {
 	background-size: cover;
 }
 
-h2, p:hover {
+h2 {
+	color: green;
+}
+
+p {
 	color: #550200; 
 	text-align: center;
 	border: 5px solid purple;
@@ -19,11 +19,21 @@ h2, p:hover {
 }
 
 p{
-	color: pink;
-
+	line-height: 5px;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 200%;
+	font-family: "Jersey 10", sans-serif;
 }
-p{
-	color: green;
+
+img {
+
+	float: right;
+}
+
+footer{
+	clear: both;
+	text-align: center;
 }
 
 li{
