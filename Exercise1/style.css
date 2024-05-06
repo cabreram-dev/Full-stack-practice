@@ -1,0 +1,58 @@
+* {
+	text-align: right;
+}
+
+body {
+	background-image: url(backgroundimage.jpg);
+	background-size: cover;
+}
+
+h2 {
+	color: green;
+}
+
+p {
+	color: #550200; 
+	text-align: center;
+	border: 5px solid purple;
+	cursor: pointer;
+}
+
+p{
+	line-height: 5px;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 200%;
+	font-family: "Jersey 10", sans-serif;
+}
+
+img {
+
+	float: right;
+}
+
+footer{
+	clear: both;
+	text-align: center;
+}
+
+li{
+	list-style: none;
+	display: inline-block;
+}
+
+.webtext {
+	border: 5px dashed green;
+}
+
+.active {
+	color: red;
+}
+
+#div1 {
+	background: rgba(0, 0, 255, 0.2);
+}
+
+#div2 {
+	background: rgba(0, 255, 0, 0.2);
+}
